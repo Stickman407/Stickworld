@@ -1,1 +1,1 @@
-alert("I'm Mr. Meeseeks look at me!!!");
+alert(hello);

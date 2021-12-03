@@ -6,3 +6,16 @@ function greet(name, lastName) {
 }
 
 greet('Bobby', 'Johnson');
+
+function myFunction() {
+    alert("dangit bobby")
+}
+
+myFunction();
+
+function hello(bobby) {
+    alert(bobby)
+}
+
+const bobby = "dangit bobby";
+hello(bobby);

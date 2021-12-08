@@ -32,27 +32,22 @@ class Tank {
 }
 
 
-
 const movementSpeed = 15;
+const chris = new Tank();
 document.addEventListener("keydown",(event) => {
   if (event.key === "ArrowUp") {
-    tank.setOrientation(0);
-    tank.move(0, -
-movementSpeed);
-  } else if (event.key === "ArrowDown")
-{
-  tank.setOrientation(180);
-  tank.move(0, movementSpeed);
-} else if (event.key === "ArrowLeft")
-  {
-  tank.setOrientation(270);
-  tank.move(-movementSpeed, 0);
-} else if (event.key === "ArrowRight")
-  {
-  tank.setOrientation(90);
-  tank.move(movementSpeed, 0);
-}
-                          });
+    chris.setOrientation(0);
+    chris.move(0, -movementSpeed);
+  } else if (event.key === "ArrowDown") {
+    chris.setOrientation(180);
+    chris.move(0, movementSpeed);
+  } else if (event.key === "ArrowLeft") {
+    chris.setOrientation(270);
+    chris.move(-movementSpeed, 0);
+  } else if (event.key === "ArrowRight") {
+    chris.setOrientation(90);
+    chris.move(movementSpeed, 0);
+  }
+});
 
-const chris = new Tank();
 

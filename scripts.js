@@ -13,7 +13,6 @@ class Tank {
       this.el.style.height = "60px";
       this.el.style.width = "60px";
       document.body.appendChild(this.el);
-       return this.el;
     }
 
     move (x, y) {
